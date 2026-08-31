@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docaug"
+version = "0.1.0"
+description = "Document reconstruction for synthetic OCR supervision: erase the source text, render new text back into the same regions, keep exact labels."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Kunat Pipatanakul", email = "research@wayuresearch.org" }]
+requires-python = ">=3.10"
+keywords = ["ocr", "synthetic-data", "document-ai", "thai", "harfbuzz"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+dependencies = [
+    "numpy>=1.24",
+    "pillow>=10.0",
+    "opencv-python-headless>=4.8",
+    "uharfbuzz>=0.39",
+    "freetype-py>=2.4",
+    "pydantic-settings>=2.2",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+# Thai word-boundary line breaking. Without it, wrapping falls back to a
+# character-level break, which is correct but uglier.
+thai = ["pythainlp>=5.0"]
+# The LLM text providers (translate / synthesize). Any OpenAI-compatible
+# endpoint works: OpenRouter, vLLM, Ollama, ...
+llm = ["openai>=1.30"]
+# `docaug run --source doclaynet` streams the dataset from the Hub.
+hub = ["datasets>=2.19"]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+all = ["docaug[thai,llm,hub]"]
+
+[project.urls]
+Homepage = "https://github.com/wayu-research/docaug"
+Repository = "https://github.com/wayu-research/docaug"
+
+[project.scripts]
+docaug = "docaug.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+docaug = ["py.typed", "assets/fonts/**/*.ttf", "assets/fonts/**/*.json", "assets/fonts/LICENSES/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]

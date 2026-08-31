@@ -1,0 +1,254 @@
+{
+ "fonts": [
+  {
+   "path": "display/chonburi-400.ttf",
+   "family": "Chonburi",
+   "category": "display",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "display/pattaya-400.ttf",
+   "family": "Pattaya",
+   "category": "display",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "handwriting/Purisa.ttf",
+   "family": "Purisa",
+   "category": "handwriting",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "handwriting/Sawasdee.ttf",
+   "family": "Sawasdee",
+   "category": "handwriting",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "handwriting/charm-400.ttf",
+   "family": "Charm",
+   "category": "handwriting",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "handwriting/charmonman-400.ttf",
+   "family": "Charmonman",
+   "category": "handwriting",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "handwriting/itim-400.ttf",
+   "family": "Itim",
+   "category": "handwriting",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "handwriting/mali-400.ttf",
+   "family": "Mali",
+   "category": "handwriting",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "handwriting/sriracha-400.ttf",
+   "family": "Sriracha",
+   "category": "handwriting",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "monospace/TlwgMono.ttf",
+   "family": "Tlwg Mono",
+   "category": "monospace",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "monospace/TlwgTypewriter.ttf",
+   "family": "Tlwg Typewriter",
+   "category": "monospace",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "monospace/TlwgTypist.ttf",
+   "family": "Tlwg Typist",
+   "category": "monospace",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "sans/Garuda.ttf",
+   "family": "Garuda",
+   "category": "sans",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "sans/Umpush.ttf",
+   "family": "Umpush",
+   "category": "sans",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "sans/kanit-400.ttf",
+   "family": "Kanit",
+   "category": "sans",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "sans/notosansthai-400.ttf",
+   "family": "Noto Sans Thai",
+   "category": "sans",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "sans/notosansthai-700.ttf",
+   "family": "Noto Sans Thai",
+   "category": "sans",
+   "weight": 700,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "sans/prompt-400.ttf",
+   "family": "Prompt",
+   "category": "sans",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "sans/sarabun-400.ttf",
+   "family": "Sarabun",
+   "category": "sans",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "sans/sarabun-700.ttf",
+   "family": "Sarabun",
+   "category": "sans",
+   "weight": 700,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "serif/Kinnari.ttf",
+   "family": "Kinnari",
+   "category": "serif",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "serif/Norasi.ttf",
+   "family": "Norasi",
+   "category": "serif",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "serif/maitree-400.ttf",
+   "family": "Maitree",
+   "category": "serif",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "serif/notoserifthai-400.ttf",
+   "family": "Noto Serif Thai",
+   "category": "serif",
+   "weight": 400,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  },
+  {
+   "path": "serif/notoserifthai-700.ttf",
+   "family": "Noto Serif Thai",
+   "category": "serif",
+   "weight": 700,
+   "italic": false,
+   "index": 0,
+   "license": "",
+   "missing": []
+  }
+ ]
+}
