@@ -278,10 +278,14 @@ to. If those hold, the dataset is telling the truth.
 ## Citation
 
 ```bibtex
-@article{pipatanakul2026wayupaxaocr,
-  title  = {How Far Can Synthetic Data Take Thai OCR?},
-  author = {Pipatanakul, Kunat},
-  year   = {2026}
+@misc{pipatanakul2026farsyntheticdatathai,
+      title={How Far Can Synthetic Data Take Thai OCR?}, 
+      author={Kunat Pipatanakul},
+      year={2026},
+      eprint={2609.03595},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2609.03595}, 
 }
 ```
 
